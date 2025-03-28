@@ -15,8 +15,8 @@ v1.0 - 2025
 :toclevels: 3
 :toc-title: Contents
 :numbered:
-:title-page-background-image: image:/resources/images/cover.png[]
-:title-logo-image: image:/resources/images/bt_logo.png[top=25%,align=center,pdfwidth=0.5in]
+:title-page-background-image: image:cover.png[]
+:title-logo-image: image:bt_logo.png[top=25%,align=center,pdfwidth=0.5in]
 
 == Chapter
 
