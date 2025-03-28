@@ -74,7 +74,7 @@ NOTE:: This is important
 
 == Image
 
-image::/Users/ilkermansur/Desktop/vaults/scripts/adoc_folder/tools/example_image.png[align=center, width=100]
+image::example_image.png[align=center, width=100]
 
 == Role
 
