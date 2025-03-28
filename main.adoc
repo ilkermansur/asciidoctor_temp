@@ -4,7 +4,7 @@ v1.0 - 2025
 :doctype: book
 :pdf-themesdir: resources/themes
 :pdf-theme: custom
-pdf-fontsdir: /resources/fonts
+:pdf-fontsdir: /resources/fonts
 :experimental:
 :icons: font
 :icon-set: fas
