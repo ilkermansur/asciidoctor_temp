@@ -26,7 +26,7 @@ font:
       normal: notoemoji.ttf
     Roboto:
       normal: RobotoCondensed-Regular.ttf
-      bold: fonts/RobotoCondensed-Bold.ttf
+      bold: RobotoCondensed-Bold.ttf
       italic: RobotoCondensed-Italic.ttf
       bold_italic: RobotoCondensed-BoldItalic.ttf
     Consolas:
@@ -82,15 +82,13 @@ heading:
 
 toc:
   margin-top: 10
-  text-decoration-color: #CCCCCC
-  text-decoration: underline
-  hanging-indent: 0.5in
   font-size: 9
   font-family: Consolas
   h3-font-color: #999999
+  h3-font-style: italic
   h2-font-style: italic
   dot-leader:
-    content: "- "
+    content: ". "
 
 image:
   caption:
