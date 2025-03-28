@@ -3,8 +3,8 @@ Ilker MANSUR
 v1.0 - 2025
 :doctype: book
 :pdf-themesdir: resources/themes
-:pdf-fontsdir: /resources/fonts
-:imagesdir: /resources/images
+:pdf-fontsdir: resources/fonts
+:imagesdir: resources/images
 :pdf-theme: custom
 :experimental:
 :preface-title: Preface
