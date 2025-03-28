@@ -1,0 +1,113 @@
+extends: default
+
+role:
+  button:
+    font-color: #333333
+    background-color: #007BFF
+    border-color: #0056b3
+    border-radius: 2
+    margin: [5, 10]
+    width: 100
+    text-align: center
+    font-style: bold
+  red:
+    background-color: #fc0328
+    font-color: #FFFFFF
+
+page:
+  numbering:
+    start-at: after-toc
+  margin: [2.97cm, 2.1cm, 2.97cm, 2.1cm]
+
+font:
+  catalog:
+    merge: true
+    NotoEmoji:
+      normal: notoemoji.ttf
+    Roboto:
+      normal: RobotoCondensed-Regular.ttf
+      bold: fonts/RobotoCondensed-Bold.ttf
+      italic: RobotoCondensed-Italic.ttf
+      bold_italic: RobotoCondensed-BoldItalic.ttf
+    Consolas:
+      normal: consolas.ttf
+      bold: consolab.ttf
+      italic: consolai.ttf
+      bold_italic: consolaz.ttf
+
+codespan:
+  font-family: NotoEmoji
+
+base:
+  font-family: Roboto
+  font-size: 12
+
+conum:
+  font-size: 12
+  font-family: Consolas
+  font-color: #ff0000
+  line-height: 1.5
+
+conum-list:
+  font-size: 12
+  font-color: #000000
+  line-height: 1.5
+
+code:
+  font-family: Consolas
+  font-size: 8
+  border-width: 1
+  border-radius: 1
+
+kbd:
+  font-family: $base-font-family
+  font-size: 10
+  font-color: #000000
+  border-offset: 1
+  border-radius: 3
+  background-color: #f3f3f3
+  padding: 2
+  separator: "\u2009+\u2009"
+
+heading:
+  font-color: #2f5496
+  h1-margin-page-top: 5cm
+  h1-margin-bottom: 5cm
+  h1_font_size: floor($base_font_size * 2.6)
+  h2_font_size: floor($base_font_size * 1.5)
+  h3_font_size: floor($base_font_size * 1.25)
+  h4_font_size: $base_font_size_large
+  h5_font_size: $base_font_size
+  h6_font_size: $base_font_size_small
+
+toc:
+  margin-top: 10
+  text-decoration-color: #CCCCCC
+  text-decoration: underline
+  hanging-indent: 0.5in
+  font-size: 9
+  font-family: Consolas
+  h3-font-color: #999999
+  h2-font-style: italic
+  dot-leader:
+    content: "- "
+
+image:
+  caption:
+    align: center
+
+table:
+  font-family: Roboto
+
+footer:
+  background-image: image:bt_logo.png[]
+  recto:
+    left:
+      content: '{page-number} of {page-count}'
+    right:
+      content: '{Author}'
+  verso:
+    left:
+      content: '{page-number} of {page-count}'
+    right:
+      content: '{Author}'

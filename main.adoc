@@ -1,0 +1,114 @@
+= Devcor
+Ilker MANSUR
+v1.0 - 2025
+:doctype: book
+:pdf-themesdir: resources/themes
+:pdf-theme: custom
+pdf-fontsdir: /resources/fonts
+:experimental:
+:icons: font
+:icon-set: fas
+:source-highlighter: rouge
+:toc:
+:toclevels: 3
+:toc-title: Contents
+:numbered:
+:title-page-background-image: image:/resources/images/cover.png[]
+:title-logo-image: image:/resources/images/bt_logo.png[top=25%,align=center,pdfwidth=0.5in]
+////
+pygments
+:preface-title: Preface
+////
+
+
+== Chapter
+
+//include::chapters/chapter-1.adoc[]
+
+This is chapter 1 content
+
+[source,python]
+----
+def sayHello(name):
+    print ("burası çok önemli bir nokta") <1>
+    print ("test")
+----
+<1> bla bla bla
+
+=== Section xxx
+
+This is new section.
+
+[quote,Rūmī]
+____
+Patience is the key to joy.
+____
+
+"I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical."
+-- Thomas Jefferson, Papers of Thomas Jefferson: Volume 11
+
+== Chapter
+
+This is chapter 2 content.
+
+* Meyve
+** elma
+** armut
+** vişne
+* Sebze
+** patates
+** biber
+
+icon:rocket[]
+
+NOTE:: This is important
+
+== Table
+
+|===
+|syntax|description
+|print|display value
+|===
+
+
+== Image
+
+image::/Users/ilkermansur/Desktop/vaults/scripts/adoc_folder/tools/example_image.png[align=center, width=100]
+
+== Role
+
+[.red]#this is white#
+
+<<<
+
+[.botton]#this is button#
+
+kbd:[Ctrl+Shift+N]
+
+
+,===
+Device,ip address,Status
+
+RT01,10.0.0.1,enable
+,===
+
+icon:rocket[]
+
+TIP: Tekrar dene
+
+IMPORTANT: Nasıl yani
+
+WARNING: Neeeeey
+
+:smile:
+
+emoji:heart[]
+
+:bulb:
+
+emoji:bear[5x]
+
+
+
+
