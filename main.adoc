@@ -3,9 +3,11 @@ Ilker MANSUR
 v1.0 - 2025
 :doctype: book
 :pdf-themesdir: resources/themes
-:pdf-theme: custom
 :pdf-fontsdir: /resources/fonts
+:imagedir: /resources/images
+:pdf-theme: custom
 :experimental:
+:preface-title: Preface
 :icons: font
 :icon-set: fas
 :source-highlighter: rouge
@@ -15,11 +17,6 @@ v1.0 - 2025
 :numbered:
 :title-page-background-image: image:/resources/images/cover.png[]
 :title-logo-image: image:/resources/images/bt_logo.png[top=25%,align=center,pdfwidth=0.5in]
-////
-pygments
-:preface-title: Preface
-////
-
 
 == Chapter
 
